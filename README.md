@@ -6,7 +6,7 @@ Example to highlight an issue with the testing package `responses` when using `f
 
 ```bash
 # setup environment
-poetry install
+pip install -r requirements.txt
 # run tests
-poetry run pytest
+pytest
 ```
